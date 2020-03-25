@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundnew"
+
+    tools:context=".message">
+    <View
+        android:id="@+id/v"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/circular_bakgroung1"></View>
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:hint="Enter Number"
+        android:textSize="24dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="5dp"
+        android:layout_height="50dp"
+        android:background="@drawable/circular_bakgroungnew"></EditText>
+
+    <EditText
+        android:id="@+id/emessage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:textSize="24dp"
+        android:textAlignment="textStart"
+        android:hint="Type Your Message here..."
+        android:padding="8dp"
+        android:layout_below="@+id/number"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/circular_bakgroungnew"></EditText>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_below="@+id/emessage"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="56dp"
+        android:text="SEND"
+        android:textSize="24dp"
+        android:textColor="#fff"
+        android:background="@drawable/buttonbg"></Button>
+
+
+</RelativeLayout>

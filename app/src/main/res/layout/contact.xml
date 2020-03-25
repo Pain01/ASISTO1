@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:padding="4dp"
+
+    android:background="@drawable/circular_bakgroungnew">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tcontact"
+        android:padding="4dp"
+        android:text="Sarvesh"
+        android:layout_marginLeft="16dp"
+        android:textColor="#000"
+        android:textSize="24dp"
+        android:background="@drawable/circular_bakgroungnew"></TextView>
+    <View
+        android:id="@+id/v"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/border"></View>
+
+
+</LinearLayout>
